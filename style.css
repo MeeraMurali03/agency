@@ -1,0 +1,256 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: sans-serif;
+
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a 
+{
+color: white !important;
+font-weight: 600;
+float: right;
+text-align: left;
+}
+.fa-bars
+{
+    color: white;
+    font-size: 30px;
+}
+.navbar-toggler
+{
+    outline: none !important; 
+}
+/*--------Banner Section-------*/
+#banner
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+    
+}
+.Promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+.playbtn
+{
+    width: 45px;
+    margin: 30px;
+}
+#watch
+{
+    color: white;
+   font-size: 20px;
+   font-weight: 600;
+}
+.bottom-img
+{
+    width: 100%;
+}
+/*----------services------*/
+#services
+{
+    padding: 80px 0;
+}
+
+.service1
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.service2
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.service3
+{
+    width: 100px;
+    margin-top: 20px; 
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(45px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    margin-top: 25px;
+
+}
+/*-----chooseus----*/
+#chooseus
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+.aboutus
+{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 8%;
+}
+#chooseus ul li
+{
+    margin: 10px 0;
+
+}
+#chooseus ul
+
+{
+    margin-left: 30px;
+}
+/*---client---*/
+#client
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.client
+{
+    border-left: 4px solid #7b1798;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.client img
+{
+    height: 60px;
+    weight: 60px;
+    border-radius: 50%;
+}
+.userdetail
+{
+    display: inline-block;
+    font-size: 15px;
+
+}
+/*------Socal Media -----*/
+#socialmedia
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+    
+}
+.social-icon img /*img mention is important*/
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icon a:hover img
+{
+    transform: translateY(-10px);
+} 
+
+/*------contact us----*/
+#contactus
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+
+}
+.wave2
+{
+    width: 100%;
+}
+
+
+.footerbox img
+{
+    height: 30px;
+    weight: 30px;
+   
+}
+.footerbox
+{
+    padding: 20px;
+}
+.footerbox .fa
+{
+    margin-right:20px;
+    font-size: 25px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 2px;
+    
+}
+.footerbox .mailinput
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 10px;
+    max-width: 300px;
+    height: 30px;
+    width: 120px;
+}
+.footerbox .btn-primary
+{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 10px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
