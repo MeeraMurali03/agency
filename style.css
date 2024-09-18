@@ -112,7 +112,7 @@ text-align: left;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transform: translateY(45px);
+    transform: translateY(50px);
 }
 .title::after
 {
@@ -124,7 +124,7 @@ text-align: left;
     margin-right: auto;
     margin-bottom: 40px;
     display: block;
-    transform: translateY(8px);
+    transform: translateY(10px);
 }
 #services .btn-primary
 {
